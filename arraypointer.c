@@ -20,3 +20,17 @@ void main(){
     }
     printf("\nSum of all the values are: %d", sum);
 }
+
+int compare(int *a, int *b){
+    int flag = 1;
+    
+    for(int i=0; i<5; i++){
+        if(*a != *b){
+            flag=0;
+            break;
+        }
+        a++;
+        b++;
+    }
+    return flag;
+}
