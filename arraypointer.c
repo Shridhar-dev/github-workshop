@@ -4,8 +4,7 @@
 void main(){
     int a[5]={5,6,7,8,9};
     int* b[5];
-    int sum = 0;
-
+    int sum = 10;
     for(int i=0; i<5; i++){
         b[i] = &a[i];
     }
